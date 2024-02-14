@@ -3,6 +3,9 @@
   font-size: larger;
   display: flex;
   gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container label {
   font-weight: 500;
@@ -14,8 +17,10 @@
 .container select {
   font-size: large;
   font-weight: 400;
+  padding: 0.5rem;
   padding-left: 1rem;
   padding-right: 0.5rem;
+
   border-radius: 0.5rem;
   border: 0;
   min-width: 5rem;

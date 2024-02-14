@@ -5,10 +5,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Protest Riot", sans-serif;
 }
 .startButton {
   font-size: 3rem;
-
+  border: 2px solid goldenrod;
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 1.25rem;
@@ -19,6 +20,8 @@
 .startButton:hover {
   font-size: 4rem;
   text-shadow: 5px 5px #00000079;
+  transform: translateX(-2px) translateY(-3px);
+  box-shadow: 2px 3px 10px black;
 }
 .gameContainer {
   height: 100%;

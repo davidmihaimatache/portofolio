@@ -3,8 +3,8 @@
 import classes from "./Title.module.css";
 function Title() {
   return (
-    <div>
-      <h1>Memory card Game</h1>
+    <div className={classes.container}>
+      <h1 className={classes.title}>Memory card Game</h1>
     </div>
   );
 }
