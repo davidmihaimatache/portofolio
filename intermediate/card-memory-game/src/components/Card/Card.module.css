@@ -1,0 +1,39 @@
+.card {
+  width: 80px;
+  height: 100px;
+  perspective: 1500rem;
+  color: black;
+}
+
+.cardSide {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.cardBack {
+  background-color: rgb(168, 48, 48);
+
+  border: 5px solid rgb(206, 198, 198);
+  animation: 0.3s ease 0s 1 rotateIn;
+}
+.cardBack:hover {
+  transform: translate(5px, -3px);
+  box-shadow: -8px 6px 5px rgba(0, 0, 0, 0.534);
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotateY(180deg);
+  }
+
+  to {
+    transform: rotateY(0deg);
+  }
+}
+.cardFront {
+  background-color: burlywood;
+  transition: all 1s;
+  animation: 0.3s ease 0s 1 rotateIn;
+}

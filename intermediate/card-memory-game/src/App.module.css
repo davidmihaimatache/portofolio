@@ -1,0 +1,31 @@
+.app {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.startButton {
+  font-size: 3rem;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+  border-radius: 10px;
+}
+.startButton:hover {
+  font-size: 4rem;
+  text-shadow: 5px 5px #00000079;
+}
+.gameContainer {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
