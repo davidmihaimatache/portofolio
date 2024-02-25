@@ -4,7 +4,9 @@
   perspective: 1500rem;
   color: black;
 }
-
+.hidden {
+  display: none;
+}
 .cardSide {
   height: 100%;
   width: 100%;

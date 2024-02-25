@@ -18,13 +18,21 @@ function Card({ svg, handleClick }) {
         )
       }
     >
-      {faceUp && (
-        <div className={`${classes.cardSide} ${classes.cardFront}`}>
+      {
+        <div
+          className={`${classes.cardSide} ${classes.cardFront} ${
+            faceUp ? "" : classes.hidden
+          }`}
+        >
           <img src={svg} />
         </div>
-      )}
+      }
       {!faceUp && (
-        <div className={`${classes.cardSide} ${classes.cardBack}`}></div>
+        <div
+          className={`${classes.cardSide} ${classes.cardBack} ${
+            faceUp ? classes.hidden : ""
+          }`}
+        ></div>
       )}
     </div>
   );
