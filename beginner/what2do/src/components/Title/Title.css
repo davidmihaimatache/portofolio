@@ -1,0 +1,9 @@
+.title {
+  padding: 1rem 2rem;
+  font-style: oblique;
+}
+.titleContainer {
+  width: 100%;
+  grid-row: 1/1;
+  border-bottom: 2px solid #f0f0f0;
+}

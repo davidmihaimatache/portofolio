@@ -1,0 +1,18 @@
+.main {
+  width: 50%;
+  height: 80%;
+  min-height: 300px;
+  min-width: 300px;
+  border-radius: 1rem;
+  grid-column: 2/3;
+  grid-row: 2;
+  place-self: center;
+  color: #a2a2a2;
+  background-color: #161616;
+  box-shadow: 1rem 1rem 1rem #161616, -1rem -1rem 4rem black;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+}

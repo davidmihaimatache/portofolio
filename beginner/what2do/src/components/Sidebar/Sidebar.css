@@ -1,0 +1,54 @@
+.sidebar {
+  background-color: #161616;
+  color: #a2a2a2;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 250px;
+  padding-top: 3rem;
+
+  grid-row: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+.button {
+  padding: 0.5rem 0rem;
+  border: 0;
+  color: #a3a3a3;
+  background-color: transparent;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  font-size: 1.15rem;
+  color: #d4d4d4;
+}
+.item {
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.item:hover {
+  background-color: #424242;
+}
+.active {
+  color: #0083ff;
+  font-size: 1.65rem;
+}
+
+menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 3.2rem;
+}

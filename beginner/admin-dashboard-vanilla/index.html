@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <div class="sidebar_container sidebar_title">
+          <img class="icon" src="./public/view-dashboard.svg" />
+          <h1>Dashboard</h1>
+        </div>
+        <div></div>
+        <div class="sidebar_container home">
+          <img class="icon" src="./public/home.svg" />
+          <h3>Home</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/card-account-details.svg" />
+          <h3>Profile</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/message.svg" />
+          <h3>Messages</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/history.svg" />
+          <h3>History</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/note-multiple.svg" />
+          <h3>Tasks</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/account-group.svg" />
+          <h3>Communities</h3>
+        </div>
+        <div></div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/cog.svg" />
+          <h3>Settings</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/help-box.svg" />
+          <h3>Support</h3>
+        </div>
+        <div class="sidebar_container">
+          <img class="icon" src="./public/shield-check.svg" />
+          <h3>Privacy</h3>
+        </div>
+      </aside>
+
+      <header class="header">
+        <div class="search_bar">
+          <img class="icon_black" src="./public/magnify.svg" />
+          <input type="text" id="search" />
+        </div>
+        <div class="greetings">
+          <p class="p_greetings">Hi there,</p>
+          <h3 class="h3_greetings">David Matache (@david)</h3>
+          <img src="./public/account.svg" class="profile_greetings" />
+        </div>
+        <div class="header_buttons">
+          <button class="header_button">New</button>
+          <button class="header_button">Upload</button>
+          <button class="header_button">Share</button>
+        </div>
+        <div class="top-right">
+          <img src="./public/bell-ring.svg" class="icon_black" />
+          <img src="./public/account.svg" class="top-right_greetings" />
+          <h3>David Matache</h3>
+        </div>
+      </header>
+      <main class="main">
+        <h2 class="main_title_top">Your Projects</h2>
+        <h2 class="main_title_top">Announcements</h2>
+        <div class="main_left_side">
+          <div class="main_announcements">
+            <div class="announcement">
+              <h3>Site Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+                facere, voluptatum eum illo culpa corrupti voluptatem architecto
+                temporibus. A iure tenetur deleniti placeat porro unde nostrum
+                voluptatibus, quam quaerat aliquam?
+              </p>
+            </div>
+            <hr />
+            <div class="announcement">
+              <h3>Community Share Day</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+                facere, voluptatum eum illo culpa corrupti voluptatem architecto
+                temporibus. A iure tenetur deleniti placeat porro unde nostrum
+                voluptatibus, quam quaerat aliquam?
+              </p>
+            </div>
+            <hr />
+            <div class="announcement">
+              <h3>Updated Privacy Policy</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+                facere, voluptatum eum illo culpa corrupti voluptatem architecto
+                temporibus. A iure tenetur deleniti placeat porro unde nostrum
+                voluptatibus, quam quaerat aliquam?
+              </p>
+            </div>
+          </div>
+
+          <h2>Trending</h2>
+          <div class="trending">
+            <div class="trending_item">
+              <img src="./public/account.svg" class="top-right_greetings" />
+              <p>@tegan</p>
+              <br />
+              <p>World Peace Builder</p>
+            </div>
+            <div class="trending_item">
+              <img src="./public/account.svg" class="top-right_greetings" />
+              <p>@morgan</p>
+              <br />
+              <p>Super Cool Project</p>
+            </div>
+            <div class="trending_item">
+              <img src="./public/account.svg" class="top-right_greetings" />
+              <p>@kendall</p>
+              <br />
+              <p>Life Changing App</p>
+            </div>
+            <div class="trending_item">
+              <img src="./public/account.svg" class="top-right_greetings" />
+              <p>@alex</p>
+              <br />
+              <p>No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <div class="project_inside">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_inside">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_inside">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_inside">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_inside">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <div class="project_inside">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                illum laudantium aut.
+              </p>
+            </div>
+            <div class="icon_project_container">
+              <img class="icon_project" src="./public/star-plus.svg" />
+              <img class="icon_project" src="./public/eye-plus.svg" />
+              <img
+                class="icon_project"
+                src="./public/share-variant-outline.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

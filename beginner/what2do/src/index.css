@@ -1,0 +1,13 @@
+:root {
+  background-image: url("../public/pexels-baskin-creative-studios-1766838.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

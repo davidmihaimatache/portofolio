@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100%;
+  background-color: #636363;
+  border-radius: 0 0 1rem 1rem;
+  grid-row: 3/-1;
+  padding: -1rem -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0.75rem 1.5rem;
+}
+.form {
+  width: 100%;
+}
+.input {
+  width: 100%;
+  min-height: 2.5rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #919090;
+  border: 1px solid #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  color: #161616;
+  font-size: 1.3rem;
+}
+.input::-webkit-input-placeholder {
+  color: #161616;
+  font-size: 1.3rem;
+}
+.input:focus::-webkit-input-placeholder {
+  color: transparent;
+  outline: 0;
+  border: 0;
+}
+.input:focus-visible {
+  outline: 0;
+  border: 0;
+  border: 2px solid #0083ff;
+  caret-color: #0083ff;
+  position: relative;
+}
+.input::before {
+  content: "";
+  visibility: visible;
+  display: block;
+  position: absolute;
+  background: url("../../../public/arrow-up-thin.svg") no-repeat center
+    center/cover;
+  background-size: 100%;
+  z-index: 100;
+  height: 50px;
+  color: red;
+  width: 20px;
+  top: 10px;
+  right: 30px;
+}
